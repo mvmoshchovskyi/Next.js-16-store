@@ -4,6 +4,8 @@ import DarkMode from './DarkMode';
 import CartButton from './CartButton';
 import NavSearch from './NavSearch';
 import Container from '../global/Container';
+import LinksDropdown from "@/components/navbar/LinksDropdown";
+
 function Navbar() {
     return (
         <nav className='border-b '>
@@ -13,7 +15,7 @@ function Navbar() {
                 <div className='flex gap-4 items-center '>
                     <CartButton />
                     <DarkMode />
-                    {/*<LinksDropdown />*/}
+                    <LinksDropdown />
                 </div>
             </Container>
         </nav>
